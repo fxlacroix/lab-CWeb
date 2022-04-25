@@ -1,0 +1,7 @@
+{
+  "build/weather.css": "http://172.23.0.3:8080/build/weather.css",
+  "build/weather.js": "http://172.23.0.3:8080/build/weather.js",
+  "build/runtime.js": "http://172.23.0.3:8080/build/runtime.js",
+  "build/vendors-node_modules_axios_index_js-node_modules_core-js_modules_es_array_find_js-node_module-935d58.js": "http://172.23.0.3:8080/build/vendors-node_modules_axios_index_js-node_modules_core-js_modules_es_array_find_js-node_module-935d58.js",
+  "build/vendors-node_modules_core-js_modules_es_function_name_js-node_modules_jquery_dist_jquery_js-n-74e5aa.js": "http://172.23.0.3:8080/build/vendors-node_modules_core-js_modules_es_function_name_js-node_modules_jquery_dist_jquery_js-n-74e5aa.js"
+}

@@ -1,0 +1,21 @@
+<template>
+  <h1>> Town Weather Lookup</h1>
+  <div class="p-5">
+    <SearchForm />
+    <hr />
+    <Timeline />
+  </div>
+</template>
+
+<script>
+
+import SearchForm from "./SearchForm";
+import Timeline from "./Timeline";
+
+export default {
+  components: {
+    SearchForm,
+    Timeline
+  }
+};
+</script>
