@@ -18,13 +18,6 @@ use Symfony\Component\Serializer\Serializer;
 
 class WeatherService
 {
-    const FORECAST_MAPPING = [
-        '[current][temp_c]',
-        '[current][condition][text]',
-        '[current][condition][wind_dir]',
-        '[current][condition][wind_kph]'
-    ];
-
     public function __construct(
         WeatherManager $manager
     ) {

@@ -5,7 +5,14 @@
     <p>Veuillez patienter...</p>
   </div>
 
-  <div v-if="success">
+  <div v-if="success==false">
+    <div class="alert alert-primary" role="alert">
+      <div>
+        {{ message }}
+      </div>
+    </div>
+  </div>
+  <div v-else>
     <h3>
       En ce moment à {{timeline.location.name}},
       il fait {{timeline.current.tempC}}°c,
@@ -30,14 +37,6 @@
         </tr>
         </tbody>
       </table>
-  </div>
-
-  <div>
-    <div class="alert alert-primary" role="alert">
-      <div>
-        {{ message }}
-      </div>
-    </div>
   </div>
 
 </template>

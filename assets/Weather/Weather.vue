@@ -1,5 +1,5 @@
 <template>
-  <h1>> Town Weather Lookup</h1>
+  <h1>> Recherche de météo par ville.</h1>
   <div class="p-5">
     <SearchForm />
     <hr />

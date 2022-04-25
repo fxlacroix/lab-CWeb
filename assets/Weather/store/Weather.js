@@ -31,6 +31,7 @@ const Weather = createStore({
     mutations: {
         setSearch(state, search) {
             state.loader = true;
+            state.success = false;
             state.message = "";
             state.search = search;
         },
